@@ -25,6 +25,9 @@ details on these changes.
 
 * ``django.test.runner.setup_databases()`` will be removed.
 
+* Support for ``Widget.render()`` methods without the ``renderer`` argument
+  will be removed.
+
 * ``django.utils.translation.string_concat()`` will be removed.
 
 * ``django.core.cache.backends.memcached.PyLibMCCache`` will no longer support
